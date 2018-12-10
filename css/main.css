@@ -106,4 +106,15 @@ article {
   width: 80%;
   margin: auto; }
 
+.skills {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  grid-template-columns: 6fr;
+  grid-gap: 10px;
+  justify-content: space-evenly; }
+  .skills img {
+    width: 80px;
+    height: auto; }
+
 /*# sourceMappingURL=main.css.map */
