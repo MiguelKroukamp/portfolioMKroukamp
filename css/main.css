@@ -60,4 +60,13 @@ header {
   header h1 {
     margin-top: 80px; }
 
+.about-me {
+  height: 50vh;
+  position: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .about-me div {
+    display: block; }
+
 /*# sourceMappingURL=main.css.map */

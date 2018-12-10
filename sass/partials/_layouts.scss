@@ -79,3 +79,14 @@ header {
         margin-top: 80px;
     }    
 }
+
+.about-me {
+    height: 50vh;
+    position: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+        display: block;
+    }
+}
