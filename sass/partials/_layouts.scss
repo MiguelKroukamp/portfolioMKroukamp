@@ -90,3 +90,24 @@ header {
         display: block;
     }
 }
+
+article {
+    text-align: center;
+    h2 {
+        padding: 10px;
+    }
+    .work {
+        text-align: center;
+        .grid-containerWork {
+            display: grid;
+            height: 80vh;
+            align-content: space-evenly;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+            img {
+                width: 350px;
+                height: auto;
+            }
+        }
+    }
+}
