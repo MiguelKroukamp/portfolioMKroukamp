@@ -66,3 +66,16 @@ nav {
         width: 100px;
     }
 }
+
+header {
+    padding: 20px;
+    height: 100vh;
+    position: justify;
+    span {
+        display: block;
+        margin: 0 auto;
+    }
+    h1 {
+        margin-top: 80px;
+    }    
+}
