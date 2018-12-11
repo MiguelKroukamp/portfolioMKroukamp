@@ -1,8 +1,11 @@
+// body layout styling starts here
 body {
     margin: 0;
     padding: 0;
 }
+// body layout styling ends here
 
+// navbar layout styling starts here
 .navColor {
     background-color: rgba(250, 240, 230, 0.9);
 }
@@ -66,7 +69,10 @@ nav {
         width: 100px;
     }
 }
+// navbar layout styling ends here
 
+
+// landing page layout styling starts here
 header {
     padding: 20px;
     height: 100vh;
@@ -79,7 +85,9 @@ header {
         margin-top: 80px;
     }    
 }
+// landing page layout styling ends here
 
+// about me layout styling starts here
 .about-me {
     height: 50vh;
     position: justify;
@@ -90,7 +98,9 @@ header {
         display: block;
     }
 }
+// about me layout styling ends here
 
+// projects layout styling starts here
 article {
     text-align: center;
     h2 {
@@ -111,7 +121,7 @@ article {
         }
     }
 }
-
+// projects container layout styling starts here
 .work {
     width: 80%;
     margin: auto;
@@ -136,7 +146,9 @@ article {
     width: 80%;
     margin: auto;
 }
+// projects layout styling ends here
 
+// skills layout styling starts here
 .skills {
     display: flex;
     height: 15vh;
@@ -149,3 +161,4 @@ article {
         height: auto;
     }
 }
+// skills layout styling ends here
