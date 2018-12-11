@@ -16,6 +16,9 @@ header {
   header span {
     font-size: 3em; }
 
+.about-me {
+  font-size: 2em; }
+
 body {
   margin: 0;
   padding: 0; }
