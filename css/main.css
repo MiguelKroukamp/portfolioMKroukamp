@@ -10,6 +10,7 @@ nav a {
   text-decoration: none; }
 
 header {
+  color: white;
   font-family: 'Yanone Kaffeesatz', sans-serif; }
   header p {
     font-size: 2em; }
@@ -162,5 +163,34 @@ header {
   background: url(../img/rainstand-2014-10-23_PA230967.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
+
+.about-me {
+  background-color: linen; }
+
+article {
+  background: url(../img/Website+Background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  z-index: 100; }
+  article h2 {
+    background-color: white; }
+  article .work {
+    background-color: linen; }
+  article .grid-container {
+    background-size: cover; }
+  article .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: transform .2s; }
+  article .grid-item:hover {
+    transform: scale(1); }
+
+#skills {
+  background-color: white; }
+
+.skills {
+  background-color: white; }
 
 /*# sourceMappingURL=main.css.map */

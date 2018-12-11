@@ -9,3 +9,54 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.about-me {
+    background-color: linen;
+}
+
+article {
+    background: url(../img/Website+Background.png);
+    // background-color: rgb(240, 195, 180);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    z-index: 100;
+    h2 {
+        background-color: white;
+    }
+
+    .work {
+        // background-color: white;
+        background-color: linen;
+        .grid-containerWork {
+            // background-color: white;
+        }
+    }
+
+    .grid-container {
+        // background-image: url(../img/b6.jpg);
+        background-size: cover;
+    }
+    
+    
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+        // background-color: linen;
+        // background: rgba(0, 0, 0, 0.5);
+        transition: transform .2s;
+    }
+    
+    .grid-item:hover {
+      transform: scale(1);
+    }
+    
+}
+
+#skills{
+    background-color: white;
+}
+.skills {
+    background-color: white;
+}
