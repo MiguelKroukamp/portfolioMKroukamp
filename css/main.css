@@ -155,4 +155,12 @@ article {
     width: 80px;
     height: auto; }
 
+nav #about-me:hover #aboutList {
+  color: red; }
+
+header {
+  background: url(../img/rainstand-2014-10-23_PA230967.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 /*# sourceMappingURL=main.css.map */
