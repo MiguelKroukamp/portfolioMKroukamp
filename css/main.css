@@ -33,6 +33,9 @@ article {
   article .grid-item {
     font-size: 20px; }
 
+.skills {
+  color: black; }
+
 body {
   margin: 0;
   padding: 0; }
