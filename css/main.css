@@ -168,7 +168,7 @@ header {
   background-color: linen; }
 
 article {
-  background: url(../img/Website+Background.png);
+  background: url(../img/wp2141407.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@ article {
   article h2 {
     background-color: white; }
   article .work {
-    background-color: linen; }
+    background-color: rgba(255, 255, 255, 0.8); }
   article .grid-container {
     background-size: cover; }
   article .grid-item {
