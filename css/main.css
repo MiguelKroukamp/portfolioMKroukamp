@@ -19,6 +19,20 @@ header {
 .about-me {
   font-size: 2em; }
 
+article {
+  font-family: 'Yanone Kaffeesatz', sans-serif; }
+  article h2 {
+    font-size: 2em;
+    color: black; }
+  article .work {
+    color: black; }
+    article .work h1 {
+      font-size: 3em; }
+  article .grid-container {
+    font-family: 'Basic', sans-serif; }
+  article .grid-item {
+    font-size: 20px; }
+
 body {
   margin: 0;
   padding: 0; }
