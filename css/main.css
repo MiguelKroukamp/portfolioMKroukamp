@@ -165,10 +165,10 @@ header {
   background-repeat: no-repeat; }
 
 .about-me {
-  background-color: linen; }
+  background-color: rgba(255, 255, 255, 0.8); }
 
 article {
-  background: url(../img/wp2141407.jpg);
+  background-color: white;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,12 +178,13 @@ article {
   article h2 {
     background-color: white; }
   article .work {
-    background-color: rgba(255, 255, 255, 0.8); }
+    background-color: white; }
   article .grid-container {
     background-size: cover; }
   article .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    transition: transform .2s; }
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: transform .2s;
+    color: white; }
   article .grid-item:hover {
     transform: scale(1); }
 

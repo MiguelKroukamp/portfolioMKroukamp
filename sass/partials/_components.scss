@@ -11,12 +11,14 @@ header {
 }
 
 .about-me {
-    background-color: linen;
+    // background-color: linen;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 article {
-    background: url(../img/wp2141407.jpg);
+    // background: url(../img/wp2141407.jpg);
     // background-color: rgb(240, 195, 180);
+    background-color: white;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,9 +30,10 @@ article {
     }
 
     .work {
-        // background-color: white;
+        background-color: white;
         // background-color: linen;
-        background-color: rgba(255, 255, 255, 0.8);
+        // background-color: rgba(255, 255, 255, 0.8);
+        // background-color: rgba(0, 0, 0, 0.5);
         .grid-containerWork {
             // background-color: white;
         }
@@ -43,10 +46,11 @@ article {
     
     
     .grid-item {
-      background-color: rgba(255, 255, 255, 0.8);
+    //   background-color: rgba(255, 255, 255, 0.8);
         // background-color: linen;
-        // background: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         transition: transform .2s;
+        color: white;
     }
     
     .grid-item:hover {
