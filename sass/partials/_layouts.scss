@@ -139,7 +139,7 @@ article {
 }
 
 
-.container {
+.personalDetails {
     display: grid;
     min-height: 100vh;
     height: auto;
@@ -154,7 +154,8 @@ article {
 // skills layout styling starts here
 .skills {
     display: flex;
-    height: 15vh;
+    min-height: 15vh;
+    height: auto;
     align-items: center;
     grid-template-columns: 6fr;
     grid-gap: 10px;
@@ -168,7 +169,8 @@ article {
 
 footer {
     display: flex;
-    height: 15vh;
+    min-height: 15vh;
+    height: auto;
     align-items: center;
     grid-template-columns: 3fr;
     grid-gap: 10px;

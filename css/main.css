@@ -137,7 +137,7 @@ article {
   padding: 40px;
   position: relative; }
 
-.container {
+.personalDetails {
   display: grid;
   min-height: 100vh;
   height: auto;
@@ -149,7 +149,8 @@ article {
 
 .skills {
   display: flex;
-  height: 15vh;
+  min-height: 15vh;
+  height: auto;
   align-items: center;
   grid-template-columns: 6fr;
   grid-gap: 10px;
@@ -160,7 +161,8 @@ article {
 
 footer {
   display: flex;
-  height: 15vh;
+  min-height: 15vh;
+  height: auto;
   align-items: center;
   grid-template-columns: 3fr;
   grid-gap: 10px;
@@ -213,7 +215,7 @@ footer .logos {
   width: 50px; }
 
 @media only screen and (max-width: 900px) {
-  .container {
+  .personalDetails {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, 300px); }
