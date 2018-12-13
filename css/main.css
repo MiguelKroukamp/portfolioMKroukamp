@@ -37,6 +37,10 @@ article {
 .skills {
   color: black; }
 
+footer {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: linen; }
+
 body {
   margin: 0;
   padding: 0; }
