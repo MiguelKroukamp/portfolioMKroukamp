@@ -75,7 +75,8 @@ nav {
 // landing page layout styling starts here
 header {
     padding: 20px;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     position: justify;
     span {
         display: block;
@@ -89,7 +90,7 @@ header {
 
 // about me layout styling starts here
 .about-me {
-    height: 50vh;
+    height: auto;
     position: justify;
     display: flex;
     align-items: center;
@@ -110,13 +111,14 @@ article {
         text-align: center;
         .grid-containerWork {
             display: grid;
-            height: 80vh;
+            // height: 80vh;
             align-content: space-evenly;
             grid-template-columns: auto auto auto;
             grid-gap: 10px;
             img {
-                width: 350px;
+                width: 90%;
                 height: auto;
+                padding-bottom: 10vh;
             }
         }
     }
@@ -139,10 +141,11 @@ article {
 
 .container {
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     align-content: space-evenly;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
     width: 80%;
     margin: auto;
 }
@@ -162,3 +165,16 @@ article {
     }
 }
 // skills layout styling ends here
+
+footer {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    grid-template-columns: 3fr;
+    grid-gap: 10px;
+    justify-content: space-evenly;
+    img {
+        width: 20px;
+        height: auto;
+    }
+}
