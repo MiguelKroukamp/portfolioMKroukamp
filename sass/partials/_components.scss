@@ -11,8 +11,8 @@ header {
 }
 
 .about-me {
-    // background-color: linen;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: linen;
+    // background-color: rgba(255, 255, 255, 0.8);
 }
 
 article {
@@ -30,10 +30,10 @@ article {
     }
 
     .work {
-        background-color: white;
+        // background-color: white;
         // background-color: linen;
         // background-color: rgba(255, 255, 255, 0.8);
-        // background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         .grid-containerWork {
             // background-color: white;
         }
@@ -49,12 +49,12 @@ article {
     //   background-color: rgba(255, 255, 255, 0.8);
         // background-color: linen;
         background-color: rgba(0, 0, 0, 0.5);
-        transition: transform .2s;
+        // transition: transform .2s;
         color: white;
     }
     
     .grid-item:hover {
-      transform: scale(1);
+    //   transform: scale(1);
     }
     
 }
